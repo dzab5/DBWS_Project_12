@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    text-align: center;
+    background-image: url("photos/background.png");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.background{
+    
+}
+
+.Soon{
+    top:30%;
+    position: absolute;
+    color: lightsteelblue;
+    font-family: 'Century Gothic';
+    text-align: center;
+
+}
+
+.wrapper{
+    top: auto;
+    position: absolute;
+    font-family: 'Century Gothic';
+    text-align: right;
+    word-spacing: 30px; 
+    font-size: 25px;
+
+}
+
+button {
+  background-color: transparent;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+
+h1{
+    font-size: 55px;
+    letter-spacing: 17px;
+}
+
+hr{
+    width: 60%;
+    margin: 30px auto;
+    border: 1 px solid lightsteelblue;
+}
+
+p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
