@@ -11,7 +11,7 @@
     <div class = "header-right">
         <a class="active" href="Home.php">Home</a>
         <a href="search.php">Search</a>
-
+        <a href="map.php">Map</a>
         <a href="about.html">About Us</a>
         <a href="imprint.html">Imprint</a>
         <a href="maintenance.php"> maintenance</a>
