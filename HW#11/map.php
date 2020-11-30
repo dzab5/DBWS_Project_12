@@ -52,10 +52,10 @@
             <h1>Map</h1>
             <div id="map"></div>
             <script>
-                $.getJSON('https://ipapi.co/json/', function(data) {
+                $.getJSON('http://www.geoplugin.net/json.gp?jsoncallback=?', function(data) {
                     console.log(JSON.stringify(data, null, 2));
-                    x = data["latitude"];
-                    y = data["longitude"];
+                    x = data["geoplugin_latitude"];
+                    y = data["geoplugin_longitude"];
                     var map = L.map('map').setView([x, y], 7);
 
                     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -63,7 +63,7 @@
                     }).addTo(map);
 
                     L.marker([x, y]).addTo(map)
-                    .bindPopup(data["ip"])
+                    .bindPopup(data["geoplugin_request"])
                     .openPopup();
                 });
             </script>
